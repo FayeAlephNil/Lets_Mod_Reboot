@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06b06fc7-3a09-4889-a36d-df11660b5517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/configuration/ConfigurationHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/reference/Reference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/proxy/CommonProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/LetsModReboot.java" afterPath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/LetsModReboot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lets_Mod_Reboot.iws" afterPath="$PROJECT_DIR$/Lets_Mod_Reboot.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/proxy/ServerProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/strikingwolf/letsmodreboot/proxy/ServerProxy.java" />
     </list>
     <ignored path="Lets_Mod_Reboot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -549,7 +543,11 @@
       <created>1406345659761</created>
       <updated>1406345659761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="A start">
+      <created>1406349402541</created>
+      <updated>1406349402541</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
