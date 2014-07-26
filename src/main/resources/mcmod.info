@@ -1,0 +1,18 @@
+[
+{
+  "modid": "LetsModReboot",
+  "name": "LetsModReboot",
+  "description": "Strikingwolf messin around :P",
+  "version": "1.0",
+  "credits": "To modding",
+  "logoFile": "",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Strikingwolf" , "pahimar"],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+	 "mod_MinecraftForge"]
+}
+]
