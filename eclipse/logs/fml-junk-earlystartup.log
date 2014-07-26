@@ -40,3 +40,41 @@
 [22:02:15] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [22:02:15] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [22:02:15] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[09:55:06] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[09:55:06] [main/INFO] [GradleStart]: Extra: []
+[09:58:11] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[09:58:11] [main/INFO] [GradleStart]: Extra: []
+[09:59:24] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[09:59:25] [main/INFO] [GradleStart]: Extra: []
+[10:00:59] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[10:00:59] [main/INFO] [GradleStart]: Extra: []
+[10:00:59] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, {ASSET_INDEX}, --assetsDir, /Users/Wes/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:00:59] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:00:59] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:00:59] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:03:55] [main/INFO] [GradleStart]: Extra: [--refresh-dependencies]
+[10:04:41] [main/INFO] [GradleStart]: Extra: [--refresh, dependencies]
+[10:05:55] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[10:05:55] [main/INFO] [GradleStart]: Extra: []
+[10:05:55] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, /Users/Wes/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:05:55] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:05:55] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:05:55] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:06:36] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[10:06:36] [main/INFO] [GradleStart]: Extra: []
+[10:06:36] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, /Users/Wes/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:06:36] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:06:36] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:06:36] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:10:39] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[10:10:39] [main/INFO] [GradleStart]: Extra: []
+[10:10:39] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, /Users/Wes/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:10:39] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:10:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:10:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:10:47] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[10:10:48] [main/INFO] [GradleStart]: Extra: []
+[10:10:48] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, /Users/Wes/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:10:48] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:10:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:10:48] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
