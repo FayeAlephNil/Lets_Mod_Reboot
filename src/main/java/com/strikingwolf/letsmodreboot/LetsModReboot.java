@@ -1,6 +1,7 @@
 package com.strikingwolf.letsmodreboot;
 
 import com.strikingwolf.letsmodreboot.handler.ConfigurationHandler;
+import com.strikingwolf.letsmodreboot.init.ModItems;
 import com.strikingwolf.letsmodreboot.proxy.IProxy;
 import com.strikingwolf.letsmodreboot.reference.Reference;
 import com.strikingwolf.letsmodreboot.utility.LogHelper;
@@ -25,6 +26,8 @@ public class LetsModReboot
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
         LogHelper.info("Pre Initialization Complete");
     }
 
