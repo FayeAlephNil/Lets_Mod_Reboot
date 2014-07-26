@@ -1,41 +1,37 @@
-[14:24:49] [main/INFO]: Setting user: ForgeDevName
-[14:24:50] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:24:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LetsModReboot
-[14:24:59] [Sound Library Loader/INFO]: Sound engine started
-[14:25:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:25:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:25:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LetsModReboot
-[14:25:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:25:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:25:02] [Sound Library Loader/INFO]: Sound engine started
-[14:25:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:25:09] [Server thread/INFO]: Generating keypair
-[14:25:10] [Server thread/INFO]: Preparing start region for level 0
-[14:25:11] [Server thread/INFO]: Changing view distance to 12, from 10
-[14:25:11] [Server thread/INFO]: ForgeDevName[local:E:ec2dcf41] logged in with entity id 201 at (-1294.0323996369407, 5.0, -465.4811536253235)
-[14:25:11] [Server thread/INFO]: ForgeDevName joined the game
-[14:25:14] [Server thread/INFO]: Saving and pausing game...
-[14:25:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:25:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:25:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:25:23] [Server thread/INFO]: [ForgeDevName: Given [Canadian Flag] * 1 to ForgeDevName]
-[14:25:23] [Client thread/INFO]: [CHAT] Given [Canadian Flag] * 1 to ForgeDevName
-[14:25:55] [Server thread/INFO]: Saving and pausing game...
-[14:25:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:25:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:25:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:26:29] [Server thread/INFO]: Saving and pausing game...
-[14:26:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:26:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:26:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:27:37] [Server thread/INFO]: Saving and pausing game...
-[14:27:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:27:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:27:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:40:07] [Client thread/INFO]: Stopping!
-[14:40:07] [Server thread/INFO]: Stopping server
-[14:40:07] [Server thread/INFO]: Saving players
-[14:40:07] [Server thread/INFO]: Saving worlds
-[14:40:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:40:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:40:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:48:12] [main/INFO]: Setting user: ForgeDevName
+[14:48:13] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:48:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LetsModReboot
+[14:48:22] [Sound Library Loader/INFO]: Sound engine started
+[14:48:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:48:23] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:48:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LetsModReboot
+[14:48:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:48:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:48:25] [Sound Library Loader/INFO]: Sound engine started
+[14:48:35] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:48:35] [Server thread/INFO]: Generating keypair
+[14:48:36] [Server thread/INFO]: Preparing start region for level 0
+[14:48:36] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:48:37] [Server thread/INFO]: ForgeDevName[local:E:bcfe6dd3] logged in with entity id 183 at (-1290.2496524854337, 5.0, -501.38338877119793)
+[14:48:37] [Server thread/INFO]: ForgeDevName joined the game
+[14:48:49] [Server thread/INFO]: [ForgeDevName: Given [Mom's Ball] * 1 to ForgeDevName]
+[14:48:49] [Client thread/INFO]: [CHAT] Given [Mom's Ball] * 1 to ForgeDevName
+[14:49:18] [Server thread/INFO]: Saving and pausing game...
+[14:49:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:49:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:49:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:49:50] [Server thread/INFO]: Saving and pausing game...
+[14:49:50] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:49:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:49:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:50:05] [Server thread/INFO]: Saving and pausing game...
+[14:50:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:50:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:50:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:50:06] [Server thread/INFO]: Stopping server
+[14:50:06] [Server thread/INFO]: Saving players
+[14:50:06] [Server thread/INFO]: Saving worlds
+[14:50:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:50:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:50:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:50:07] [Client thread/INFO]: Stopping!
