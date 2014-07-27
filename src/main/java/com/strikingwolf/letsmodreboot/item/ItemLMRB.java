@@ -1,5 +1,6 @@
 package com.strikingwolf.letsmodreboot.item;
 
+import com.strikingwolf.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.strikingwolf.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemLMRB extends Item
     public ItemLMRB()
     {
         super();
+        this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 
     }
     @Override

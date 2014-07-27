@@ -1,5 +1,6 @@
 package com.strikingwolf.letsmodreboot.block;
 
+import com.strikingwolf.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.strikingwolf.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,8 @@ public class BlockLMRB extends Block
     public BlockLMRB(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+
     }
 
     public BlockLMRB()

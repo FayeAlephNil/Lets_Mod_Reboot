@@ -5,3 +5,8 @@ item.letsmodreboot:ball.name=Mom's Ball
 
 ##Blocks##
 tile.letsmodreboot:flag.name=Canadian Flag
+tile.letsmodreboot:Justin.name=Justin's Triangle
+
+
+##CreativeTabs
+itemGroup.letsmodreboot=Let's Mod Reboot
