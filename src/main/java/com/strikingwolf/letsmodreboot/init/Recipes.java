@@ -16,6 +16,7 @@ public class Recipes
         //Items
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.mapleleaf), "treeLeaves"));
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.ball), "slimeball"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.obsidian_pickaxe), "OOO", " s ", " s ", 'O', Blocks.obsidian, 's', "stickWood"));
 
         //Blocks
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.flag), "WMW", "WMW", "WMW", 'W', Blocks.wool, 'M', new ItemStack(ModItems.mapleleaf)));
