@@ -3,6 +3,7 @@ package com.strikingwolf.letsmodreboot;
 import com.strikingwolf.letsmodreboot.handler.ConfigurationHandler;
 import com.strikingwolf.letsmodreboot.init.ModBlocks;
 import com.strikingwolf.letsmodreboot.init.ModItems;
+import com.strikingwolf.letsmodreboot.init.Recipes;
 import com.strikingwolf.letsmodreboot.proxy.IProxy;
 import com.strikingwolf.letsmodreboot.reference.Reference;
 import com.strikingwolf.letsmodreboot.utility.LogHelper;
@@ -38,6 +39,7 @@ public class LetsModReboot
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
+        Recipes.init();
         LogHelper.info("Initialization Complete");
 
     }
