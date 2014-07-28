@@ -1,7 +1,14 @@
 ##Items##
 item.letsmodreboot:mapleLeaf.name=Awesome Maple Leaf
 item.letsmodreboot:ball.name=Mom's Ball
+item.letsmodreboot:compressedcoal.name=Compressed Coal
+
+//Tools
 item.letsmodreboot:obsidian_pickaxe.name=Obsidian Pickaxe
+item.letsmodreboot:obsidian_shovel.name=Obsidian Shovel
+item.letsmodreboot:obsidian_axe.name=Obsidian Axe
+item.letsmodreboot:obsidian_sword.name=Obsidian Sword
+item.letsmodreboot:super_tool.name=Super Tool
 
 
 ##Blocks##

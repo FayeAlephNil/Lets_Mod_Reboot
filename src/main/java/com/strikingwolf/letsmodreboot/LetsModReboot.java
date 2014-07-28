@@ -4,6 +4,7 @@ import com.strikingwolf.letsmodreboot.handler.ConfigurationHandler;
 import com.strikingwolf.letsmodreboot.init.ModBlocks;
 import com.strikingwolf.letsmodreboot.init.ModItems;
 import com.strikingwolf.letsmodreboot.init.Recipes;
+import com.strikingwolf.letsmodreboot.item.LMRBFuelHandler;
 import com.strikingwolf.letsmodreboot.proxy.IProxy;
 import com.strikingwolf.letsmodreboot.reference.Reference;
 import com.strikingwolf.letsmodreboot.utility.LogHelper;
@@ -13,6 +14,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot
@@ -40,6 +42,7 @@ public class LetsModReboot
     public void Init(FMLInitializationEvent event)
     {
         Recipes.init();
+        GameRegistry.registerFuelHandler(new LMRBFuelHandler());
         LogHelper.info("Initialization Complete");
 
     }
