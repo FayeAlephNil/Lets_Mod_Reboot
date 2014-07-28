@@ -13,7 +13,7 @@ public class ItemObsidianPickaxe extends ItemPickaxe
     public ItemObsidianPickaxe()
     {
         super(ItemLMRB.Obsidian);
-        setUnlocalizedName("obsidian_pickaxe");
+        this.setUnlocalizedName("obsidian_pickaxe");
         maxStackSize = 1;
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
     }

@@ -12,7 +12,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ItemLMRB extends Item
 {
     //Define Materials
-    static Item.ToolMaterial Obsidian = EnumHelper.addToolMaterial("Obsidian", 3, 7000, 20, 2, 10);
+    static Item.ToolMaterial Obsidian = EnumHelper.addToolMaterial("Obsidian", 3, 4683, 20, 2, 10);
 
     public ItemLMRB()
     {
