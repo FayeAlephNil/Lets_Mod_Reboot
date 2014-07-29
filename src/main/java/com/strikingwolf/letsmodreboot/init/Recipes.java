@@ -19,7 +19,7 @@ public class Recipes
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.obsidian_shovel), " O ", " s ", " s ", 'O', Blocks.obsidian, 's', "stickWood"));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.obsidian_axe), "OO ", "Os ", " s ", 'O', Blocks.obsidian, 's', "stickWood"));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.obsidian_sword), " O ", " O ", " s ", 'O', Blocks.obsidian, 's', "stickWood"));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.super_tool), " S ", "ADP", " s ", 'S', new ItemStack(ModItems.obsidian_shovel), 'A', new ItemStack(ModItems.obsidian_axe), 'D', Blocks.dragon_egg, 'P', new ItemStack(ModItems.obsidian_pickaxe), 's', "stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.dragon_tool), " S ", "ADP", " s ", 'S', new ItemStack(ModItems.obsidian_shovel), 'A', new ItemStack(ModItems.obsidian_axe), 'D', Blocks.dragon_egg, 'P', new ItemStack(ModItems.obsidian_pickaxe), 's', "stickWood"));
 
         //Blocks
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.flag), "WMW", "WMW", "WMW", 'W', Blocks.wool, 'M', new ItemStack(ModItems.mapleleaf)));

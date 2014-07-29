@@ -1,9 +1,9 @@
-[16:18:28] [main/INFO]: Setting user: ForgeDevName
-[16:18:31] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:18:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:LetsModReboot, FMLFileResourcePack:Inventory Tweaks
-[16:18:41] [Sound Library Loader/INFO]: Sound engine started
-[16:18:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:18:43] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_axe.png
+[08:40:59] [main/INFO]: Setting user: ForgeDevName
+[08:41:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[08:41:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:LetsModReboot, FMLFileResourcePack:Inventory Tweaks
+[08:41:11] [Sound Library Loader/INFO]: Sound engine started
+[08:41:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[08:41:13] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_axe.png
 java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_axe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -33,7 +33,7 @@ java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_axe.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:43] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_shovel.png
+[08:41:13] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_shovel.png
 java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_shovel.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -63,37 +63,7 @@ java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_shovel.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:43] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/super_tool.png
-java.io.FileNotFoundException: letsmodreboot:textures/items/super_tool.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:593) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at GradleStart.bounce(GradleStart.java:108) [start/:?]
-	at GradleStart.startClient(GradleStart.java:101) [start/:?]
-	at GradleStart.main(GradleStart.java:56) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:43] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/compressedcoal.png
+[08:41:13] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/compressedcoal.png
 java.io.FileNotFoundException: letsmodreboot:textures/items/compressedcoal.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -123,7 +93,37 @@ java.io.FileNotFoundException: letsmodreboot:textures/items/compressedcoal.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:43] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_sword.png
+[08:41:13] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/dragon_tool.png
+java.io.FileNotFoundException: letsmodreboot:textures/items/dragon_tool.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:593) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at GradleStart.bounce(GradleStart.java:108) [start/:?]
+	at GradleStart.startClient(GradleStart.java:101) [start/:?]
+	at GradleStart.main(GradleStart.java:56) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[08:41:13] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_sword.png
 java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_sword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -153,9 +153,9 @@ java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_sword.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:18:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:LetsModReboot, FMLFileResourcePack:Inventory Tweaks
-[16:18:44] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_axe.png
+[08:41:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[08:41:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:LetsModReboot, FMLFileResourcePack:Inventory Tweaks
+[08:41:14] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_axe.png
 java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_axe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -188,7 +188,7 @@ java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_axe.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:44] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_shovel.png
+[08:41:14] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_shovel.png
 java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_shovel.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -221,40 +221,7 @@ java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_shovel.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:44] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/super_tool.png
-java.io.FileNotFoundException: letsmodreboot:textures/items/super_tool.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:653) [Minecraft.class:?]
-	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:596) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at GradleStart.bounce(GradleStart.java:108) [start/:?]
-	at GradleStart.startClient(GradleStart.java:101) [start/:?]
-	at GradleStart.main(GradleStart.java:56) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:44] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/compressedcoal.png
+[08:41:14] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/compressedcoal.png
 java.io.FileNotFoundException: letsmodreboot:textures/items/compressedcoal.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -287,7 +254,40 @@ java.io.FileNotFoundException: letsmodreboot:textures/items/compressedcoal.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:44] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_sword.png
+[08:41:14] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/dragon_tool.png
+java.io.FileNotFoundException: letsmodreboot:textures/items/dragon_tool.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:653) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:596) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at GradleStart.bounce(GradleStart.java:108) [start/:?]
+	at GradleStart.startClient(GradleStart.java:101) [start/:?]
+	at GradleStart.main(GradleStart.java:56) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[08:41:14] [Client thread/ERROR]: Using missing texture, unable to load letsmodreboot:textures/items/obsidian_sword.png
 java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_sword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -320,17 +320,134 @@ java.io.FileNotFoundException: letsmodreboot:textures/items/obsidian_sword.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:18:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:18:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:18:45] [Sound Library Loader/INFO]: Sound engine started
-[16:18:56] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:18:56] [Server thread/INFO]: Generating keypair
-[16:18:56] [Server thread/INFO]: Preparing start region for level 0
-[16:18:57] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:18:58] [Server thread/INFO]: ForgeDevName[local:E:6652a98f] logged in with entity id 196 at (-1287.4987986465405, 4.0, -483.9804712915482)
-[16:18:58] [Server thread/INFO]: ForgeDevName joined the game
-[16:19:03] [Client thread/INFO]: [CHAT] InvTweaks: Configuration loaded.
-[16:19:03] [Server thread/INFO]: Saving and pausing game...
-[16:19:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:19:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:19:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:41:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[08:41:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[08:41:15] [Sound Library Loader/INFO]: Sound engine started
+[08:41:26] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[08:41:26] [Server thread/INFO]: Generating keypair
+[08:41:43] [Server thread/INFO]: Preparing start region for level 0
+[08:41:44] [Server thread/INFO]: Preparing spawn area: 94%
+[08:41:44] [Server thread/INFO]: Changing view distance to 12, from 10
+[08:41:46] [Server thread/INFO]: ForgeDevName[local:E:c136c598] logged in with entity id 222 at (-1285.7054973538795, 5.0, -477.27251789674557)
+[08:41:46] [Server thread/INFO]: ForgeDevName joined the game
+[08:41:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2255ms behind, skipping 45 tick(s)
+[08:41:52] [Client thread/INFO]: [CHAT] InvTweaks: Configuration loaded.
+[08:43:09] [Server thread/INFO]: [ForgeDevName: Given [Enchantment Table] * 1 to ForgeDevName]
+[08:43:09] [Client thread/INFO]: [CHAT] Given [Enchantment Table] * 1 to ForgeDevName
+[08:43:14] [Server thread/INFO]: [ForgeDevName: Given [Bookshelf] * 64 to ForgeDevName]
+[08:43:14] [Client thread/INFO]: [CHAT] Given [Bookshelf] * 64 to ForgeDevName
+[08:43:42] [Client thread/INFO]: [CHAT] You are now playing adventure
+[08:43:43] [Client thread/INFO]: [CHAT] You are now playing survival
+[08:43:43] [Client thread/INFO]: [CHAT] You are now playing creative
+[08:43:43] [Client thread/INFO]: [CHAT] You are now playing creative+
+[08:44:47] [Server thread/INFO]: [ForgeDevName: Given [Compressed Coal] * 1 to ForgeDevName]
+[08:44:47] [Client thread/INFO]: [CHAT] Given [Compressed Coal] * 1 to ForgeDevName
+[08:44:51] [Server thread/INFO]: [ForgeDevName: Given [Obsidian Sword] * 1 to ForgeDevName]
+[08:44:51] [Client thread/INFO]: [CHAT] Given [Obsidian Sword] * 1 to ForgeDevName
+[08:44:52] [Server thread/INFO]: [ForgeDevName: Given [Obsidian Axe] * 1 to ForgeDevName]
+[08:44:52] [Client thread/INFO]: [CHAT] Given [Obsidian Axe] * 1 to ForgeDevName
+[08:44:53] [Server thread/INFO]: [ForgeDevName: Given [Obsidian Shovel] * 1 to ForgeDevName]
+[08:44:53] [Client thread/INFO]: [CHAT] Given [Obsidian Shovel] * 1 to ForgeDevName
+[08:44:53] [Server thread/INFO]: [ForgeDevName: Given [Dragon Tool] * 1 to ForgeDevName]
+[08:44:53] [Client thread/INFO]: [CHAT] Given [Dragon Tool] * 1 to ForgeDevName
+[08:45:19] [Client thread/INFO]: [CHAT] You are now playing adventure
+[08:45:19] [Client thread/INFO]: [CHAT] You are now playing survival
+[08:46:43] [Server thread/INFO]: [@: Changing to clear weather]
+[08:47:31] [Server thread/INFO]: [ForgeDevName: Given [Redstone Repeater] * 1 to ForgeDevName]
+[08:47:31] [Client thread/INFO]: [CHAT] Given [Redstone Repeater] * 1 to ForgeDevName
+[08:47:33] [Server thread/INFO]: [@: Changing to rain and thunder]
+[08:47:39] [Server thread/INFO]: Saving and pausing game...
+[08:47:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:47:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:47:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:47:47] [Server thread/INFO]: [@: Changing to rain and thunder]
+[08:48:16] [Server thread/INFO]: [@: Changing to rain and thunder]
+[08:49:23] [Server thread/INFO]: [@: Changing to clear weather]
+[08:49:28] [Server thread/INFO]: [@: Changing to clear weather]
+[08:50:09] [Server thread/INFO]: [ForgeDevName: Given [Redstone Repeater] * 1 to ForgeDevName]
+[08:50:09] [Client thread/INFO]: [CHAT] Given [Redstone Repeater] * 1 to ForgeDevName
+[08:50:19] [Client thread/INFO]: [CHAT] You are now playing creative
+[08:50:19] [Client thread/INFO]: [CHAT] You are now playing creative+
+[08:51:44] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:45] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:45] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:46] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:47] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:48] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:49] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:49] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:50] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:51] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:52] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:53] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:53] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:54] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:55] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:56] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:57] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:57] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:58] [Server thread/INFO]: [@: Changing to clear weather]
+[08:51:59] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:00] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:01] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:01] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:02] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:03] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:04] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:05] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:05] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:06] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:07] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:08] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:09] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:10] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:11] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:12] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:13] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:14] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:15] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:17] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:18] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:19] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:20] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:21] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:25] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:26] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:27] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:29] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:30] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:31] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:32] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:33] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:35] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:36] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:37] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:38] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:39] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:41] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:42] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:43] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:44] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:45] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:47] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:48] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:49] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:50] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:51] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:53] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:54] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:55] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:56] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:57] [Server thread/INFO]: [@: Changing to clear weather]
+[08:52:59] [Server thread/INFO]: [@: Changing to clear weather]
+[08:53:00] [Server thread/INFO]: Saving and pausing game...
+[08:53:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:53:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:53:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:53:00] [Server thread/INFO]: Stopping server
+[08:53:00] [Server thread/INFO]: Saving players
+[08:53:00] [Server thread/INFO]: Saving worlds
+[08:53:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:53:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:53:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:53:02] [Client thread/INFO]: Stopping!

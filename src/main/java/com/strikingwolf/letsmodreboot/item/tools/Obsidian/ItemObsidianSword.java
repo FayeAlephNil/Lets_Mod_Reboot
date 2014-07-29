@@ -1,7 +1,7 @@
-package com.strikingwolf.letsmodreboot.item.tools;
+package com.strikingwolf.letsmodreboot.item.tools.Obsidian;
 
-import com.strikingwolf.letsmodreboot.item.ToolLMRB;
 import com.strikingwolf.letsmodreboot.reference.Reference;
+import com.strikingwolf.letsmodreboot.reference.ToolsReference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -11,7 +11,7 @@ import net.minecraft.item.ItemSword;
 public class ItemObsidianSword extends ItemSword
 {
     public ItemObsidianSword(){
-        super(ToolLMRB.Obsidian);
+        super(ToolsReference.Obsidian);
         this.setUnlocalizedName("obsidian_sword");
     }
     @Override
