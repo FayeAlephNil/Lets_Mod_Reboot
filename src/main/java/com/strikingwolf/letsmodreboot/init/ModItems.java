@@ -2,13 +2,16 @@ package com.strikingwolf.letsmodreboot.init;
 
 import com.strikingwolf.letsmodreboot.item.*;
 import com.strikingwolf.letsmodreboot.item.tools.ItemDragonTool;
+import com.strikingwolf.letsmodreboot.item.tools.ItemLightningRod;
 import com.strikingwolf.letsmodreboot.item.tools.Obsidian.ItemObsidianAxe;
 import com.strikingwolf.letsmodreboot.item.tools.Obsidian.ItemObsidianPickaxe;
 import com.strikingwolf.letsmodreboot.item.tools.Obsidian.ItemObsidianShovel;
 import com.strikingwolf.letsmodreboot.item.tools.Obsidian.ItemObsidianSword;
 import com.strikingwolf.letsmodreboot.item.tools.ToolAbstracts.*;
+import com.strikingwolf.letsmodreboot.reference.ItemsReference;
 import com.strikingwolf.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.item.*;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
@@ -16,7 +19,12 @@ public class ModItems
 {
     public static final ItemLMRB mapleleaf = new ItemMapleLeaf();
     public static final ItemLMRB ball = new ItemBall();
+    public static final ItemLMRB golden_ball = new ItemGoldenBall();
     public static final ItemLMRB compressedcoal = new ItemCompressedCoal();
+    public static final ItemLMRB lighning_rod = new ItemLightningRod();
+    public static final ItemLMRB wand = new ItemWand();
+    public static final ItemLMRB symbol_card = new ItemSymbolCard();
+    public static final ItemLMRB deathstone = new ItemDeathstone();
 
     //tools
     public static final ItemShovelLMRB obsidian_shovel = new ItemObsidianShovel();
@@ -29,7 +37,12 @@ public class ModItems
     {
         GameRegistry.registerItem(mapleleaf, "mapleLeaf");
         GameRegistry.registerItem(ball, "ball");
+        GameRegistry.registerItem(golden_ball, "golden_ball");
         GameRegistry.registerItem(compressedcoal, "compressedcoal");
+        GameRegistry.registerItem(lighning_rod, "lightning_rod");
+        GameRegistry.registerItem(wand, "wand");
+        GameRegistry.registerItem(symbol_card, "card");
+        GameRegistry.registerItem(deathstone, "deathstone");
 
         //tools
         GameRegistry.registerItem(obsidian_pickaxe, "obsidian_pickaxe");
@@ -37,7 +50,23 @@ public class ModItems
         GameRegistry.registerItem(obsidian_axe, "obsidian_axe");
         GameRegistry.registerItem(obsidian_sword, "obsidian_sword");
         GameRegistry.registerItem(dragon_tool, "dragon_tool");
+
+        //call addMetadataNames
+        addMetadataNames();
     }
 
+    public static void addMetadataNames()
+    {
+        //cards
+        for (int i = 0; i < ItemsReference.CARD_NAMES.length; i++)
+        {
+            LanguageRegistry.addName(new ItemStack(symbol_card, 1, i), ItemsReference.CARD_NAMES[i]);
+        }
 
+        //deathstones
+        for (int i = 0; i < (ItemsReference.DEATHSTONE_NAMES.length) ; i++)
+        {
+            LanguageRegistry.addName(new ItemStack(deathstone, 1, i), ItemsReference.DEATHSTONE_NAMES[i]);
+        }
+    }
 }

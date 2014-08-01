@@ -27,6 +27,7 @@ public class ToolsReference
                 Blocks.lit_redstone_lamp, Blocks.lit_redstone_ore, Blocks.furnace, Blocks.lit_furnace, Blocks.rail, Blocks.detector_rail, Blocks.golden_rail, Blocks.activator_rail, Blocks.daylight_detector, Blocks.obsidian, Blocks.mob_spawner, Blocks.monster_egg
         });
     }
+
     static {
         shovelBlocksEffectiveAgainst = (new Block[]{
                 Blocks.grass, Blocks.dirt, Blocks.sand, Blocks.gravel, Blocks.snow, Blocks.snow_layer, Blocks.clay, Blocks.farmland, Blocks.soul_sand, Blocks.mycelium
