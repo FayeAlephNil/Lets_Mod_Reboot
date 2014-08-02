@@ -121,9 +121,13 @@ public class ItemDeathstone extends ItemLMRB
     @SideOnly(Side.CLIENT)
     public void addInformation(ItemStack itemStack, EntityPlayer player, List info, boolean useExtraInformation)
     {
-        int nextNumber = itemStack.getItemDamage() + 1;
-        String nextItem = ItemsReference.DEATHSTONE_NAMES[nextNumber];
-        info.add("If you craft this you will get " + nextItem);
+        if (itemStack.getItemDamage() != 0) {
+            int nextNumber = (itemStack.getItemDamage() - 1);
+            String nextItem = ItemsReference.DEATHSTONE_NAMES[nextNumber];
+            info.add("If you craft this you will get " + nextItem);
+        }else {
+            info.add("If you craft this you will get " + ItemsReference.DEATHSTONE_NAMES[4]);
+        }
     }
 }
 
