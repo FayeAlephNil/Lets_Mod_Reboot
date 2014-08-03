@@ -2,9 +2,11 @@ package com.strikingwolf.letsmodreboot;
 
 import com.strikingwolf.letsmodreboot.handler.ConfigurationHandler;
 import com.strikingwolf.letsmodreboot.init.ModBlocks;
+import com.strikingwolf.letsmodreboot.init.ModEntities;
 import com.strikingwolf.letsmodreboot.init.ModItems;
 import com.strikingwolf.letsmodreboot.init.Recipes;
 import com.strikingwolf.letsmodreboot.item.LMRBFuelHandler;
+import com.strikingwolf.letsmodreboot.proxy.CommonProxy;
 import com.strikingwolf.letsmodreboot.proxy.IProxy;
 import com.strikingwolf.letsmodreboot.reference.Reference;
 import com.strikingwolf.letsmodreboot.utility.LogHelper;
@@ -23,13 +25,16 @@ public class LetsModReboot
     public static LetsModReboot instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static IProxy proxy;
+    public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        proxy.initRenderers();
+        proxy.initSounds();
 
         ModItems.init();
 
@@ -41,8 +46,17 @@ public class LetsModReboot
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
-        Recipes.init();
+        ModItems.addMetadataNames();
+
+        ModBlocks.addMetadataNames();
+        ModBlocks.registerTileEntities();
+
+        ModEntities.init();
+
         GameRegistry.registerFuelHandler(new LMRBFuelHandler());
+
+        Recipes.init();
+
         LogHelper.info("Initialization Complete");
 
     }

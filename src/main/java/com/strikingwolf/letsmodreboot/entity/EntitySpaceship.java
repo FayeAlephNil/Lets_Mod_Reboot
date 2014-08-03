@@ -6,7 +6,7 @@ import net.minecraft.world.World;
 
 public class EntitySpaceship extends Entity
 {
-
+    public boolean isCharged;
     public EntitySpaceship(World world) {
         super(world);
     }

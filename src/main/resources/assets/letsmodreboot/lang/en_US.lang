@@ -17,8 +17,9 @@ item.letsmodreboot:dragon_tool.name=Dragon Tool
 
 ##Blocks##
 tile.letsmodreboot:flag.name=Canadian Flag
-tile.letsmodreboot:Justin.name=Justin's Triangle
-
+tile.letsmodreboot:justin.name=Justin's Triangle
+tile.letsmodreboot:silly_machine.name=Silly Machine
+tile.letsmodreboot:weird_bomb.name=Weird Bomb
 
 ##CreativeTabs
 itemGroup.letsmodreboot=Let's Mod Reboot

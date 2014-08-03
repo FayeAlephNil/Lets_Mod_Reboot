@@ -51,8 +51,6 @@ public class ModItems
         GameRegistry.registerItem(obsidian_sword, "obsidian_sword");
         GameRegistry.registerItem(dragon_tool, "dragon_tool");
 
-        //call addMetadataNames
-        addMetadataNames();
     }
 
     public static void addMetadataNames()

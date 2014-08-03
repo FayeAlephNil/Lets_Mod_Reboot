@@ -43,6 +43,6 @@ public class Recipes
 
         //Blocks
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.flag), "WMW", "WMW", "WMW", 'W', Blocks.wool, 'M', new ItemStack(ModItems.mapleleaf)));
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.Justin), "   ", " W ", "WWW", 'W', Blocks.wool));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.justin), "   ", " W ", "WWW", 'W', Blocks.wool));
     }
 }
