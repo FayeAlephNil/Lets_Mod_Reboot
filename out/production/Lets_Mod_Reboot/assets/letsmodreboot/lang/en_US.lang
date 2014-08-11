@@ -1,20 +1,25 @@
 ##Items##
 item.letsmodreboot:mapleLeaf.name=Awesome Maple Leaf
 item.letsmodreboot:ball.name=Mom's Ball
+item.letsmodreboot:golden_ball.name=Mom's Golden Ball
 item.letsmodreboot:compressedcoal.name=Compressed Coal
+item.letsmodreboot:lightning_rod.name=Lighning Rod
+item.letsmodreboot:wand.name=Wand of the Rocket
+item.letsmodreboot:deathstone4.name=Skeleton Deathstone
 
-//Tools
+##Tools##
 item.letsmodreboot:obsidian_pickaxe.name=Obsidian Pickaxe
 item.letsmodreboot:obsidian_shovel.name=Obsidian Shovel
 item.letsmodreboot:obsidian_axe.name=Obsidian Axe
 item.letsmodreboot:obsidian_sword.name=Obsidian Sword
-item.letsmodreboot:super_tool.name=Super Tool
+item.letsmodreboot:dragon_tool.name=Dragon Tool
 
 
 ##Blocks##
 tile.letsmodreboot:flag.name=Canadian Flag
-tile.letsmodreboot:Justin.name=Justin's Triangle
-
+tile.letsmodreboot:justin.name=Justin's Triangle
+tile.letsmodreboot:silly_machine.name=Silly Machine
+tile.letsmodreboot:weird_bomb.name=Weird Bomb
 
 ##CreativeTabs
 itemGroup.letsmodreboot=Let's Mod Reboot

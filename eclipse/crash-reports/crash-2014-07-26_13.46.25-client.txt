@@ -6,8 +6,8 @@ Description: Unexpected error
 
 java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 	at java.lang.String.substring(String.java:1871)
-	at com.strikingwolf.letsmodreboot.item.ItemLMRB.getUnwrappedUnlocalizedName(ItemLMRB.java:28)
-	at com.strikingwolf.letsmodreboot.item.ItemLMRB.getUnlocalizedName(ItemLMRB.java:23)
+	at mods.letsmodreboot.item.ItemLMRB.getUnwrappedUnlocalizedName(ItemLMRB.java:28)
+	at mods.letsmodreboot.item.ItemLMRB.getUnlocalizedName(ItemLMRB.java:23)
 	at net.minecraft.item.Item.getUnlocalizedNameInefficiently(Item.java:607)
 	at net.minecraft.item.Item.getItemStackDisplayName(Item.java:744)
 	at net.minecraft.item.ItemStack.getDisplayName(ItemStack.java:539)
@@ -43,8 +43,8 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at java.lang.String.substring(String.java:1871)
-	at com.strikingwolf.letsmodreboot.item.ItemLMRB.getUnwrappedUnlocalizedName(ItemLMRB.java:28)
-	at com.strikingwolf.letsmodreboot.item.ItemLMRB.getUnlocalizedName(ItemLMRB.java:23)
+	at mods.letsmodreboot.item.ItemLMRB.getUnwrappedUnlocalizedName(ItemLMRB.java:28)
+	at mods.letsmodreboot.item.ItemLMRB.getUnlocalizedName(ItemLMRB.java:23)
 	at net.minecraft.item.Item.getUnlocalizedNameInefficiently(Item.java:607)
 	at net.minecraft.item.Item.getItemStackDisplayName(Item.java:744)
 	at net.minecraft.item.ItemStack.getDisplayName(ItemStack.java:539)

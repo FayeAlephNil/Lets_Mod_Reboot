@@ -1218,3 +1218,19 @@
 [19:45:07] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [19:45:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [19:45:07] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:33:14] [main/INFO] [GradleStart]: username: Strikingwolf2012@gmail.com
+[22:33:14] [main/INFO] [GradleStart]: Extra: []
+[22:33:14] [main/INFO] [GradleStart]: Password found, attempting login
+[22:33:15] [main/INFO] [GradleStart]: Login Succesful!
+[22:33:15] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, Strikingwolf, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 545ebbcd6a614466a801abde3fa0c1c9, --assetsDir, /Users/Wes/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[22:33:15] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:33:15] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:33:15] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:33:54] [main/INFO] [GradleStart]: username: Strikingwolf2012@gmail.com
+[22:33:54] [main/INFO] [GradleStart]: Extra: []
+[22:33:54] [main/INFO] [GradleStart]: Password found, attempting login
+[22:33:55] [main/INFO] [GradleStart]: Login Succesful!
+[22:33:55] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, Strikingwolf, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 545ebbcd6a614466a801abde3fa0c1c9, --assetsDir, /Users/Wes/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[22:33:55] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:33:55] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:33:55] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker

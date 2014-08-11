@@ -7,6 +7,7 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
  R4wk, ZeuX, IngisKahn      
  MCP Data version : unknown
 ****************************
+:clean
 :ideaModule
 :ideaProject
 :ideaWorkspace
@@ -14,4 +15,4 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
 
 BUILD SUCCESSFUL
 
-Total time: 26.144 secs
+Total time: 28.334 secs
