@@ -14,7 +14,6 @@ public class BlockLMRB extends Block
     {
         super(material);
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
-
     }
 
     public BlockLMRB()

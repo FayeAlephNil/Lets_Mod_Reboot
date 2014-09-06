@@ -2,6 +2,7 @@ package mods.letsmodreboot.handler;
 
 import java.io.File;
 
+import mods.letsmodreboot.reference.ConfigSettings;
 import mods.letsmodreboot.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
@@ -33,7 +34,7 @@ public class ConfigurationHandler {
 
     private static void loadConfiguration()
     {
-        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "Example");
+        ConfigSettings.LOVE_POTION_ID = configuration.getInt("lovePotionId", Configuration.CATEGORY_GENERAL, 26, 26, 31, "ID for the love potion effect.");
 
         if (configuration.hasChanged())
         {

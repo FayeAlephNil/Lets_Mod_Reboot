@@ -1,10 +1,8 @@
 package mods.letsmodreboot;
 
+import mods.letsmodreboot.client.handler.KeyInputEventHandler;
 import mods.letsmodreboot.handler.ConfigurationHandler;
-import mods.letsmodreboot.init.ModBlocks;
-import mods.letsmodreboot.init.ModEntities;
-import mods.letsmodreboot.init.ModItems;
-import mods.letsmodreboot.init.Recipes;
+import mods.letsmodreboot.init.*;
 import mods.letsmodreboot.item.LMRBFuelHandler;
 import mods.letsmodreboot.proxy.CommonProxy;
 import mods.letsmodreboot.reference.Reference;
@@ -32,6 +30,7 @@ public class LetsModReboot
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
+        proxy.registerKeyBindings();
         proxy.initRenderers();
         proxy.initSounds();
 
@@ -45,12 +44,16 @@ public class LetsModReboot
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+
         ModItems.addMetadataNames();
 
         ModBlocks.addMetadataNames();
         ModBlocks.registerTileEntities();
 
         ModEntities.init();
+
+        PotionEffects.init();
 
         GameRegistry.registerFuelHandler(new LMRBFuelHandler());
 
